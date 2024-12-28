@@ -79,18 +79,6 @@ p {
     color: lightgrey;
 }
 
-.introbutton {
-    padding: 8px 30px;
-    border-radius: 10px;
-    color: black;
-    font-size: medium;
-    background-color: black;
-    text-align: center;
-    margin-top: 30px;
-    background-color: orangered;
-    border: none;
-    font-weight: 700;
-}
 
 #element {
     font-size: 40px;
@@ -98,17 +86,83 @@ p {
     color: orangered;
 }
 
-.p {
+p {
     font-size: 15px;
     padding: 2px 2px;
     color: lightgrey;
 }
 
-.bio {
+pre {
     margin-top: 15px;
 }
 
-.servicecontainer1 {
+.facility-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.f1 {
+    height: 270px;
+    width: 330px;
+    border: 1px solid orangered;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    transition: 0.1s 0.1s ease;
+}
+
+.f2 {
+    height: 270px;
+    width: 330px;
+    border: 1px solid orangered;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    transition: 0.1s 0.1s ease;
+}
+
+.f3 {
+    height: 270px;
+    width: 330px;
+    border: 1px solid orangered;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    transition: 0.1s 0.1s ease;
+}
+
+.f4 {
+    height: 270px;
+    width: 330px;
+    border: 1px solid orangered;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    transition: 0.1s 0.1s ease;
+}
+
+.service-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.service-2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -186,12 +240,6 @@ p {
     background-position: center;
 }
 
-.servicecontainer2 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 30px;
-}
 
 .s4 {
     height: 270px;
@@ -292,7 +340,12 @@ p {
     color: white;
 }
 
-.services span {
+.Services span {
+    color: orangered;
+    margin-left: 20px;
+}
+
+.Facilities span {
     color: orangered;
     margin-left: 20px;
 }
