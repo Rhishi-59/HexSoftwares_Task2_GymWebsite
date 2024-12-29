@@ -350,67 +350,11 @@ p {
     margin-left: 20px;
 }
 
-.choosecontainer {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 50px;
-}
-
-.chooseimg {
-    background-image: url(image/trainer2.jpg    );
-    background-size: cover;
-    height: 500px;
-    width: 650px;
-    border: 0.05px solid white;
-    border-radius: 20px;
-    background-position: center;
-}
-
-.pp {
-    margin-top: 30px;
-    padding: 2px 4px;
-}
-
-.choosebtn {
-    padding: 12px 26px;
-    background-color: orangered;
-    border-radius: 10px;
-    margin-top: 30px;
-    font-size: 15px;
-    color: black;
-    font-weight: 900;
-    border: none;
-}
-
-.why {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-.chooseus span {
-    color: orangered;
-
-}
-
-.chooseus h1 {
-    text-align: center;
-    font-size: 50px;
-    font-weight: bolder;
-}
-
-.chooseus {
-    margin-top: 100px;
-}
-
 button {
     cursor: pointer;
 }
 
-.pricing span {
+.Membership span {
     color: orangered;
 }
 
@@ -420,11 +364,11 @@ button {
     font-weight: bolder;
 }
 
-.pricing {
+.Membership {
     margin-top: 100px;
 }
 
-.pricecon1 {
+.mem-container1 {
     height: 400px;
     width: 350px;
     border: 1px solid orangered;
@@ -437,7 +381,7 @@ button {
     transition: 0.1s 0.1s ease;
 }
 
-.pricecon2 {
+.mem-container2 {
     height: 400px;
     width: 350px;
     border: 1px solid orangered;
@@ -450,7 +394,7 @@ button {
     transition: 0.1s 0.1s ease;
 }
 
-.pricecon3 {
+.mem-container3 {
     height: 400px;
     width: 350px;
     border: 1px solid orangered;
@@ -463,19 +407,19 @@ button {
     transition: 0.1s 0.1s ease;
 }
 
-.pricecon1:hover {
+.mem-container1:hover {
     transform: scale(1.1);
 }
 
-.pricecon2:hover {
+.mem-container2:hover {
     transform: scale(1.1);
 }
 
-.pricecon3:hover {
+.mem-container3:hover {
     transform: scale(1.1);
 }
 
-.pricecontainer {
+.mem-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -514,105 +458,12 @@ button {
     flex-direction: row;
 }
 
-.pricecontainer ul li {
+.mem-container ul li {
     color: lightgrey;
     font-size: 15px;
     margin-top: 10px;
 }
 
-.reviewcontainer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    margin-top: 50px;
-    cursor: pointer;
-}
-
-.reviewimg1 {
-    background-image: url(image/John-Cena1.webp);
-    background-size: cover;
-    background-position: center;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    border: 4px solid orangered;
-    align-content: center;
-}
-
-.review1 {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    height: 400px;
-    width: 400px;
-    border: 4px solid rgb(66, 64, 64);
-    justify-content: space-around;
-    border-radius: 20px;
-    transition: 0.1s 0.1s ease;
-}
-
-.review1:hover {
-    transform: scale(1.1);
-}
-
-.review2:hover {
-    transform: scale(1.1);
-}
-
-.review3:hover {
-    transform: scale(1.1);
-}
-
-.reviewpara {
-    font-size: smaller;
-    
-}
-
-.reviewimg2 {
-    background-image: url(image/undertaker.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    border: 4px solid orangered;
-    align-content: center;
-}
-
-.review2 {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    height: 400px;
-    width: 400px;
-    border: 4px solid rgb(66, 64, 64);
-    justify-content: space-around;
-    border-radius: 20px;
-    transition: 0.1s 0.1s ease;
-}
-
-.reviewimg3 {
-    background-image: url(image/brocklesnar.jpg);
-    background-size: cover;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    border: 4px solid orangered;
-    align-content: center;
-}
-
-.review3 {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    height: 400px;
-    width: 400px;
-    border: 4px solid rgb(66, 64, 64);
-    justify-content: space-around;
-    border-radius: 20px;
-    transition: 0.1s 0.1s ease;
-}
 
 .starimg {
     display: flex;
@@ -621,13 +472,8 @@ button {
     flex-direction: row;
 }
 
-.starimg img {
-    height: 22px;
-    width: 30px;
-    margin-left: 5px;
-}
 
-.contact-section {
+.Contact {
     width: 100%;
     max-width: 40rem;
     margin-left: auto;
@@ -663,9 +509,7 @@ button {
     flex-direction: column;
   }
   
-  .form-label {
-    margin-bottom: 0.5rem;
-  }
+  
   
   .form-input,
   .form-textarea {
@@ -714,7 +558,7 @@ button {
   }
 
   button:hover {
-    background-color: rgb(63, 192, 63);
+    background-color: orangered;
     color: #fff;
   }
 
@@ -793,33 +637,20 @@ footer {
     transition: transform 0.3s ease-out;
 }
 
-.navcontainer ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
 
-.navcontainer ul li {
+
+.nav-items {
     margin: 0 20px;
 }
 
-.navcontainer ul li a {
-    text-decoration: none;
-    color: #fff; 
-    font-size: 18px;
-    font-weight: bold;
-    padding: 10px 20px;
-    position: relative;
-    display: block;
-    transition: color 0.3s ease, transform 0.3s ease;
-}
 
-.navcontainer ul li a:hover {
+
+.nav-items a:hover {
     color: #ff6347; 
     transform: translateY(-5px);  
 }
 
-.navcontainer ul li a::after {
+.nav-items a::after {
     content: "";
     position: absolute;
     bottom: 0;
