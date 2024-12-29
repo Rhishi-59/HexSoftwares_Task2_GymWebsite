@@ -183,7 +183,7 @@ pre {
 }
 
 .img1 {
-    background-image: url(image/bench.jpg);
+    background-image: url('images/eqipments.jpg');
     background-size: cover;
     height: 200px;
     width: 250px;
@@ -210,7 +210,7 @@ p {
 }
 
 .img2 {
-    background-image: url(image/gain.webp);
+    background-image: url('images/calisthenics.webp');
     background-size: cover;
     height: 200px;
     width: 250px;
@@ -232,7 +232,7 @@ p {
 }
 
 .img3 {
-    background-image: url(image/rop.jpg);
+    background-image: url('images/martial-arts.avif');
     background-size: cover;
     height: 200px;
     width: 250px;
@@ -255,7 +255,7 @@ p {
 }
 
 .img4 {
-    background-image: url(image/abs.jpg);
+    background-image: url('images/ground.jpg');
     background-size: cover;
     height: 200px;
     width: 250px;
