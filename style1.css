@@ -276,8 +276,53 @@ p {
     transition: 0.1s 0.1s ease;
 }
 
-.img5 {
-    background-image: url(image/lift.webp);
+.simg1 {
+    background-image: url('images/phy-fitness.jpg');
+    background-size: cover;
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+    background-position: center;
+}
+
+.simg2 {
+    background-image: url('images/gain.webp');
+    background-size: cover;
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+    background-position: center;
+}
+
+.simg3{
+    background-image: url('images/strength.jpg');
+    background-size: cover;
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+    background-position: center;
+}
+
+.simg4 {
+    background-image: url('images/seld-defense.jpg');
+    background-size: cover;
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+    background-position: center;
+}
+
+.simg5 {
+    background-image: url('images/coach.jpg');
+    background-size: cover;
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+    background-position: center;
+}
+
+.simg6 {
+    background-image: url('images/group-activity.jpg');
     background-size: cover;
     height: 200px;
     width: 250px;
@@ -322,15 +367,6 @@ p {
     transform: scale(1.1);
 }
 
-
-.img6 {
-    background-image: url(image/cardio2.jpg);
-    background-size: cover;
-    height: 200px;
-    width: 250px;
-    border-radius: 20px;
-    background-position: center;
-}
 
 .servicehead {
     font-size: 50px;
